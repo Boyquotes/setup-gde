@@ -3,6 +3,8 @@
 Scons is required to be installed on your system (and in your PATH) in order for this plugin to work.
 Currently it only works on Windows as I don't have a Linux machine to test it on.
 
+To run the plugin, go to `Project -> Tools -> Setup GDExtension`. The plugin should be enabled already.
+
 Pretty much - it runs `OS.execute()` to unzip the downloaded package. On Windows it relies on Powershell v5+.
 This is because there is no native way in Godot to unzip a folder. Most machines should be able to do so through the shell however.
 
